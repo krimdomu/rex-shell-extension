@@ -17,3 +17,17 @@ eval {
 };
 
 exit $exit_code;
+
+=pod
+
+=head1 rex-install - install a package
+
+With this command you can install a package through the package management system of the remote host.
+
+This command tries to detect the operating system and uses the propper command to install the package.
+
+For CentOS it uses I<yum>, for Debian I<apt-get>, and so on.
+
+=head1 EXAMPLE
+
+bash# rex-install vim

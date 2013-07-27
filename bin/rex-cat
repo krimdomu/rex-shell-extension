@@ -17,3 +17,13 @@ eval {
 };
 
 exit $exit_code;
+
+=pod
+
+=head1 rex-cat - print the content of a file to stdout
+
+print the content of a file to stdout
+
+=head1 EXAMPLE
+
+bash# rex-cat /etc/passwd

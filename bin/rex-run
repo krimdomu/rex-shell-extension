@@ -19,3 +19,21 @@ my $out = $r->call($command, join_argv => " ");
 print $out . "\n";
 
 exit $?;
+
+=pod
+
+=head1 rex-run - run a command on a remote host
+
+This is the base executable for many rex-* commands. If you use this command directly you can execute remote commands.
+
+=head1 EXAMPLE
+
+bash# rex-run hostname
+
+=head1 COMMANDS
+
+The following commands uses this executable.
+
+rex-arp, rex-bunzip2, rex-bzip2, rex-chattr, rex-chgrp, rex-chmod, rex-chown, rex-cp, rex-df, rex-dmesg, rex-dnsdomainname, rex-domainname, rex-dpkg, rex-getfacl, rex-gunzip, rex-gzip, rex-halt, rex-head, rex-hostname, rex-id, rex-ifconfig, rex-ifdown, rex-ifenslave, rex-ifup, rex-ip, rex-iptables, rex-iptables-save, rex-kill, rex-ln, rex-ls, rex-lsattr, rex-lsmod, rex-modprobe, rex-mkdir, rex-mount, rex-mv, rex-netstat, rex-nice, rex-ping, rex-ps, rex-readlink, rex-reboot, rex-rm, rex-rmmod, rex-route, rex-rpm, rex-sed, rex-setfacl, rex-shutdown, rex-sync, rex-tar, rex-test, rex-touch, rex-tracepath, rex-traceroute, rex-umount, rex-uname, rex-zcat.
+
+All these commands have the same parameters as their local counterparts.

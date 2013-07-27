@@ -30,3 +30,13 @@ for (@ARGV) {
 print "" . $r->call($command, join_argv => " ", local_execution => $be_local) . "\n";
 
 exit $?;
+
+=pod
+
+=head1 rex-find - execute find on the remote host
+
+execute find on the remote host.
+
+=head1 EXAMPLE
+
+bash# rex-find /etc -name passwd -type f

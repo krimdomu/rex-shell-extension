@@ -30,3 +30,13 @@ eval {
 
 
 exit $exit_code;
+
+=pod
+
+=head1 rex-upload - upload a file to the remote host
+
+With this command you can upload a file to the remote host.
+
+=head1 EXAMPLE
+
+bash# rex-upload /local/file /remote/file

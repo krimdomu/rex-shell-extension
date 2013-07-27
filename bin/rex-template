@@ -36,3 +36,13 @@ unlink $tmp_file if $tmp_file;
 
 
 exit $exit_code;
+
+=pod
+
+=head1 rex-template - parse a template
+
+With this command you can parse a template with data collected from a remote host.
+
+=head1 EXAMPLE
+
+bash# rex-template templates/apache2.conf.tpl | rex-file /etc/apache2/apache2.conf owner=root group=root mode=644

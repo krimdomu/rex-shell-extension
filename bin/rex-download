@@ -25,3 +25,13 @@ eval {
 
 
 exit ($exit_code == 1 ? 0 : 1);
+
+=pod
+
+=head1 rex-download - download a file from the remote host
+
+This command will download a given file from the remote host to your local host.
+
+=head1 EXAMPLE
+
+bash# rex-download /path/remote/file /path/local/file

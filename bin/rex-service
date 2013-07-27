@@ -25,3 +25,21 @@ eval {
 
 
 exit ($exit_code == 1 ? 0 : 1);
+
+=pod
+
+=head1 rex-service - manage system services
+
+With this command you can start, stop, query system services.
+
+=head1 EXAMPLE
+
+bash# rex-service apache2 start
+
+bash# rex-service apache2 stop
+
+bash# rex-service apache2 status
+
+bash# rex-service apache2 ensure=started
+
+bash# rex-service apache2 ensure=stopped

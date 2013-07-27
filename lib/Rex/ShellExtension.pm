@@ -3,7 +3,7 @@
 # 
 # vim: set ts=3 sw=3 tw=0:
 # vim: set expandtab:
-   
+
 package Rex::ShellExtension;
 
 use strict;
@@ -13,7 +13,7 @@ use Rex -base;
 require Rex::Args;
 use Data::Dumper;
 
-our $VERSION = "0.42.99.0";
+our $VERSION = "0.43.0";
 
 sub new {
    my $that = shift;

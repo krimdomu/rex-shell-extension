@@ -16,3 +16,13 @@ my $exit_code = $?;
 $r->command("run", 1, "/bin/rm /tmp/iptables.restore");
 
 exit $?;
+
+=pod
+
+=head1 rex-iptables-restore - restore iptables rules
+
+With this command you can restore iptables rules.
+
+=head1 EXAMPLE
+
+bash# cat my.rules | rex-iptables-restore

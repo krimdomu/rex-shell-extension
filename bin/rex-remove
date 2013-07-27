@@ -17,3 +17,13 @@ eval {
 };
 
 exit $exit_code;
+
+=pod
+
+=head1 rex-remove - remove a package
+
+With this command you can uninstall a package.
+
+=head1 EXAMPLE
+
+bash# rex-remove vim

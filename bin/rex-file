@@ -45,3 +45,15 @@ unlink $tmp_file if $tmp_file;
 
 
 exit $exit_code;
+
+=pod
+
+=head1 rex-file - upload a local file
+
+With this command you can manage remote files. You can upload local files and templates.
+
+=head1 EXAMPLE
+
+bash# rex-file /etc/passwd source=files/passwd owner=root mode=644
+
+bash# cat /etc/passwd | rex-file /etc/passwd owner=root mode=644

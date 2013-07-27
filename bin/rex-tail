@@ -16,3 +16,13 @@ my $out = $r->command("run", 1, join(" ", @ARGV), continuous_read => sub {
 });
 
 exit $?;
+
+=pod
+
+=head1 rex-tail - tail a file
+
+This is the tail command, executed on a remote host.
+
+=head1 EXAMPLE
+
+bash# rex-tail -f /var/log/messages
